@@ -9,11 +9,11 @@ def collatz(sayı):
 print("Bu sayı collatz sayısı mı programına hoşgeldin !!! ")
 
 while True :
-	x = int(input("Sayı giriniz :"))
-	print("Girdiğiniz sayı {}".format(x))
-	while x!=1:
-		x=collatz(x)
-		print(x)
-		if x == 1:
+	Sayı = int(input("Sayı giriniz :"))
+	print("Girdiğiniz sayı {}".format(Sayı))
+	while Sayı!=1:
+		colatzSayısı = collatz(Sayı)
+		print(colatzSayısı)
+		if colatzSayısı == 1:
 			print("Bu bir Collatz sayısı") 
 
